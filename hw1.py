@@ -22,7 +22,7 @@ df__filter = df[(df.Start_Lon > -75) & (df.Start_Lon < -72) & (df.Start_Lat > 39
 print(df__filter)
 print("\n")
 
-'''print("==============Q1_1===================")
+print("==============Q1_1===================")
 print("find most pickup region and top 5 pickup regions\n")
 df_round = df__filter.round({"Start_Lon" : 2, "Start_Lat" : 2})
 print(df_round.dtypes)
@@ -98,7 +98,7 @@ print("\n")
 # release memory space
 del df_peak_hour
 del df_qq_groupby
-del df_qq'''
+del df_qq
 
 print("==============Q3===================")
 print("difference between big and small total amount\n")
