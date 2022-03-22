@@ -1,0 +1,6 @@
+./ipynb_checkpoints
+shape/
+*.odt
+*.ipynb
+*.db
+*.csv
